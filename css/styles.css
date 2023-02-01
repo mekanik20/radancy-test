@@ -1,0 +1,35 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* nav bar */
+.navbar {
+  overflow: hidden;
+  background-color: seagreen;
+  position: fixed;
+  margin-top: 10%;
+  width: 100%;
+}
+
+/*links within nav bar*/
+.navbar a {
+  justify-content: space-between;
+  align-items: center;
+  display: inline-block;
+  color: ghostwhite;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* color change on hover */
+.navbar a:hover {
+  background: rgb(255, 255, 255);
+  color: black;
+}
+
+/* main content */
+.main {
+  margin-top: 30px;
+}
