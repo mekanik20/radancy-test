@@ -1,0 +1,28 @@
+$breakpoint-small: 576px;
+$breakpoint-medium: 768px;
+$breakpoint-large: 992px;
+
+body {
+  font-size: 10pt;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: $breakpoint-small) {
+  body {
+    font-size: 14pt;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: $breakpoint-medium) {
+  body {
+    font-size: 12pt;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: $breakpoint-large) {
+  body {
+    font-size: 10pt;
+  }
+}
